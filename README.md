@@ -8,10 +8,9 @@ It is written in C with a Python interface.
 
 ### Definition
 
-Given a bipartite graph $$G = (U, V, E)$$, a **biclique** $$C$$ is a complete bipartite subgraph of
-$$G$$, i.e., for each pair of $$u \in U(C)$$ and $$v \in V(C)$$, we have $$(u, v) \in E(C)$$.
+Given a bipartite graph G = (U,V,E), a **biclique** C is a complete bipartite subgraph of G, i.e., for each pair of u ∈ U(C) and v ∈ V(C), we have (u, v) ∈ E(C).
 
-In this implementation, we aim to find a biclique $$C^\*$$ in $$G$$ with the maximum number of **edge**.
+In this implementation, we aim to find a biclique C* in G with the maximum number of **edge**.
 
 If you are looking for **enumerating** maximum biclique, I suggest you refer to:
 
