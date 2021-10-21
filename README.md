@@ -22,11 +22,11 @@ and the implementation [here](https://cran.r-project.org/web/packages/biclique/i
 
 If you are looking for finding the biclique with the maximum number of **vertex**, I suggest you refer to the [NetworkX](https://networkx.org/) project and this [post](https://cs.stackexchange.com/questions/131081/polynomial-time-algorithm-to-solve-the-maximum-vertex-bipartite-subgraph-problem).
 
-### About the implementation
+### About this implementation
 
-When I implemented the algorithm, I had an application in my mind. As a result, it probably does not suitable for your own use. For example, D is passed as a dense matrix and the bipartite graph is represented as two arrays of bitset internally to speed up some steps. 
+When I implemented the algorithm, I had an application in my mind. As a result, it probably did not suitable for your own use. For example, D was passed as a dense matrix and the bipartite graph was represented as two arrays of bitset internally to speed up some steps. 
 
-I also used `_GNU_SOURCE` to use some `stdlib.h` method. It may limit the portability of the code.
+I also used `_GNU_SOURCE` to use some `stdlib.h` method. It limited the portability of the code.
 
 Good luck.
 
