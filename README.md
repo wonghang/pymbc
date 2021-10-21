@@ -24,7 +24,7 @@ If you are looking for finding the biclique with the maximum number of **vertex*
 
 ### About this implementation
 
-When I implemented the algorithm, I had an application in my mind. As a result, it probably did not suitable for your own use. For example, D was passed as a dense matrix and the bipartite graph was represented as two arrays of bitset internally to speed up some steps. 
+When I implemented the algorithm, I had a specific application in my mind. As a result, it probably did not suitable for your own use. For example, D was passed as a dense matrix and the bipartite graph was represented as two arrays of bitset internally to speed up some steps. 
 
 I also used `_GNU_SOURCE` to use some `stdlib.h` method. It limited the portability of the code.
 
