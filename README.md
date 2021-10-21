@@ -33,7 +33,7 @@ Good luck.
 ### Installation
 
 #### Prerequisites
-You need [setuptools](https://pypi.org/project/setuptools/), https://numpy.org/[numpy](numpy) and standard build toolchain. If you are running on a Ubuntu, the following command should suffice:
+You need [setuptools](https://pypi.org/project/setuptools/), [numpy](https://numpy.org/) and standard build toolchain. If you are running on a Ubuntu, the following command should suffice:
 
 ```bash
 $ apt install python3 python3-numpy python3-setuptools build-essential libpython3-dev
