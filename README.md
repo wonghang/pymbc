@@ -63,7 +63,7 @@ Please refer to the `examples/` subdirectory.
 
 ### Contact
 
-WONG Hang wonghang (at) gmail (dot) com
+wonghang (at) gmail (dot) com
 
 WONG is my surname.
 
