@@ -299,7 +299,7 @@ static const char * const maximum_biclique_search_docstring =
   "init_type     -- Algorithm for InitMBC:\n"
   "                 0 - Best (try all below and use the one with maximum size)\n"
   "                 1 - Greedy (start from an empty graph and add vertex until it is not possible)\n"
-  "                 2 - Prune (start from everything and remove vertex until it founds a biclique)\n"
+  "                 2 - Prune (start from everything and remove vertex until it finds a biclique)\n"
   "                 3 - Star (start from a star with maximum size, check from U, i.e. U has one vertex)\n"
   "                 4 - Star (start from a star with maximum size, check from V, i.e. V has one vertex)\n"
   "init_iter     -- Greedy algorithm is randomized and indicate how many iterations to run\n"
