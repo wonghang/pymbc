@@ -46,7 +46,7 @@ $ python setup.py build
 $ sudo python setup.py install # or python setup.py install --user
 ```
 
-### Documentstion
+### Documentation
 
 ```python
 import pymbc
