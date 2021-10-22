@@ -24,13 +24,13 @@ If you are looking for finding the biclique with the maximum number of **vertex*
 
 ### About this implementation
 
-When I implemented the algorithm, I had a specific application in my mind. As a result, it probably did not suitable for your own use. For example, D was passed as a dense matrix and the bipartite graph was represented as two arrays of bitset internally to speed up some steps. 
+When I implemented the algorithm, I had a specific application in my mind. As a result, it probably was not suitable for your own use. For example, D (see Documentation) was passed as a dense matrix and the bipartite graph was represented as two arrays of bitset internally to speed up some steps. 
 
-I also used `_GNU_SOURCE` to use some `stdlib.h` method. It limited the portability of the code.
+I also used `_GNU_SOURCE` to use some `stdlib.h` methods. It limited the portability of the code.
 
 Good luck.
 
-### Installation
+### Compilation and Installation
 
 #### Prerequisites
 You need [setuptools](https://pypi.org/project/setuptools/), [numpy](https://numpy.org/) and standard build toolchain. If you are running on a Ubuntu, the following command should suffice:

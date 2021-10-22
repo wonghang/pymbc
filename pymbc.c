@@ -276,7 +276,7 @@ static PyObject *maximum_biclique_search(PyObject *self, PyObject *args)
 static const char * const maximum_biclique_search_docstring =
   "maximum_biclique_search(U: Optional[numpy.typing.NDArray[np.uint64]],\n"
   "                        V: Optional[numpy.typing.NDArray[np.uint64]],\n"
-  "                        D: numpy.typingNDArray[np.bool],\n"
+  "                        D: numpy.typing.NDArray[np.bool],\n"
   "                        tau_u: int,\n"
   "                        tau_v: int,\n"
   "                        init_type: int,\n"
@@ -449,7 +449,7 @@ static PyObject *greedy_biclique(PyObject *self, PyObject *args)
 static const char * const greedy_biclique_docstring =
   "greedy_biclique(U: Optional[numpy.typing.NDArray[np.uint64]],\n"
   "                V: Optional[numpy.typing.NDArray[np.uint64]],\n"
-  "                D: numpy.typingNDArray[np.bool],\n"
+  "                D: numpy.typing.NDArray[np.bool],\n"
   "                seed: int,\n"
   "                iter: bool) -> Tuple[List,List]\n"
   "\n"
